@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import "./App.css";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://rag-qa-system-9qtm.onrender.com";
 
 function App() {
   const [files, setFiles] = useState([]); // {name, chunks}
